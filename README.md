@@ -1,16 +1,20 @@
-## Hi there 👋
+# SimplyInvoice 📄⚡
 
-<!--
-**SimplyInvoice/SimplyInvoice** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A lightweight, open-source invoice generator built with **HTML, CSS, and JavaScript**. Create, customize, and download professional invoices in seconds—no server required!
 
-Here are some ideas to get you started:
+[![Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://your-demo-link.com) 
+[![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)](LICENSE)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+![SimplyInvoice Screenshot](/screenshot.png) *(Add a screenshot later!)*
+
+## Features ✨
+- 📝 **Dynamic invoice editing** (add/remove items, auto-calculate totals)
+- 💾 **Export as PDF** (using [jsPDF](https://parall.ax/products/jspdf))
+- 🎨 **Clean, responsive design** (works on mobile/desktop)
+- 🔥 **100% client-side** (no backend needed)
+- 🌍 **Free and open-source** (MIT Licensed)
+
+## Quick Start 🚀
+1. **Clone the repo**:
+   ```bash
+   git clone https://github.com/your-username/SimplyInvoice.git
