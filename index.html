@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Invoice Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="invoice-box">
+        <h1>INVOICE</h1>
+        <div class="input-section">
+            <input type="text" id="companyName" placeholder="Your Company Name">
+            <input type="text" id="clientName" placeholder="Client Name">
+            <input type="date" id="invoiceDate">
+        </div>
+        <table id="items">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="text" class="item-name"></td>
+                    <td><input type="number" class="item-qty"></td>
+                    <td><input type="number" class="item-price"></td>
+                    <td class="item-total">$0.00</td>
+                </tr>
+            </tbody>
+        </table>
+        <button id="addRow">+ Add Item</button>
+        <div class="total-section">
+            <h3>TOTAL: <span id="finalTotal">$0.00</span></h3>
+        </div>
+        <button id="generatePDF">Download PDF Invoice</button>
+    </div>
+    <script src="script.js"></script>
+
+    <!-- Add before </body> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.25/jspdf.plugin.autotable.min.js"></script>
+</body>
+</html>
